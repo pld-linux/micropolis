@@ -1,4 +1,5 @@
 Summary:	A city simulation game
+Summary(pl.UTF-8):	Gra z symulacją miasta
 Name:		micropolis
 Version:	0.1
 Release:	1
@@ -16,6 +17,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Micropolis is one of the oldest and grandest of city simulation games.
+
+%description -l pl.UTF-8
+Micropolis to jedna z najstarszych i najwspanialszych gier z symulacją
+miasta.
 
 %prep
 %setup -q -n %{name}-activity
